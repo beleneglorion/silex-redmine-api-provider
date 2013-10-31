@@ -12,7 +12,7 @@ class RedmineServiceProvider implements ServiceProviderInterface
        
         $app['redmine'] = $app->share(function () use ($app) {
            
-              return new Redmine\Client($app['redmine.options']['url'], $app['redmine.options.apikey']);
+              return new \Redmine\Client($app['redmine.options']['url'], $app['redmine.options']['apikey']);
         });
     }
 
