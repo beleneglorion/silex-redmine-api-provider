@@ -1,0 +1,24 @@
+{
+    "name": "beleneglorion/silex-redmine-api-provider",
+    "type": "library",
+    "description": "Silex ServiceProvider for Redmine Api",
+    "keywords": ["silex", "service provider", "redmine"],
+    "homepage": "https://github.com/beleneglorion/silex-redmine-api-provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thibault Sébastien",
+            "email": "contact@thibault-sebastien.com",
+            "homepage": "http://www.thibault-sebastien.com"
+        }
+    ],
+    "require": {
+       "silex/silex": "~1.1",
+        "kbsali/redmine-api": "1.0.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hinatachii": "src/"
+        }
+    }
+}
